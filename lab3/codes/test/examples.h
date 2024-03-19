@@ -48,7 +48,10 @@ inline void print_example_banner(std::string title)
         std::string banner_top = "+" + std::string(banner_length - 2, '-') + "+";
         std::string banner_middle = "|" + std::string(9, ' ') + title + std::string(9, ' ') + "|";
 
-        std::cout << std::endl << banner_top << std::endl << banner_middle << std::endl << banner_top << std::endl;
+        std::cout << std::endl
+                  << banner_top << std::endl
+                  << banner_middle << std::endl
+                  << banner_top << std::endl;
     }
 }
 
